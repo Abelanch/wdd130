@@ -1,0 +1,40 @@
+nav{
+    background-color: darkblue;
+    padding: 10px;
+}
+nav  a{ 
+    color: white;
+    display: block;
+    padding: 20px;
+}
+h1 {color: darkblue}
+main img {
+    width: 150px;
+    height: auto;
+    border: 1px solid black;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+    padding: 10px;
+}
+p {
+    padding: 0;
+}
+aside {
+       width: 20rem;
+       margin: 1em;
+       border: 1px solid gray;
+       padding: 1em;
+       background-color: bisque;
+       color: rgb(1, 31, 31);
+
+}
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+footer {
+    margin-top: 1em;
+    border-top: 5px solid green;
+    text-align: center;
+}
