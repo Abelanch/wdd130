@@ -1,19 +1,27 @@
+:root{
+    --cor-primaria: darkblue;
+    --cor-secundaria: white;
+    --cor-terceira: gray;
+    
+
+}
+
 nav{
-    background-color: darkblue;
+    background-color: var(--cor-primaria)
     padding: 10px;
 }
 nav  a{ 
-    color: white;
+    color: var(--cor-secundaria)
     display: block;
     padding: 20px;
 }
-h1 {color: darkblue}
+h1 {color: var(--cor-primaria)}
 main img {
     width: 150px;
     height: auto;
     border: 1px solid black;
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: 0 0 30px var(--cor-terceira)
     padding: 10px;
 }
 p {
@@ -22,7 +30,7 @@ p {
 aside {
        width: 20rem;
        margin: 1em;
-       border: 1px solid gray;
+       border: 1px solid var(--cor-terceira)
        padding: 1em;
        background-color: bisque;
        color: rgb(1, 31, 31);
