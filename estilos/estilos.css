@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 :root{
     --cor-primaria: darkblue;
     --cor-secundaria: white;
@@ -46,3 +53,12 @@ footer {
     border-top: 5px solid green;
     text-align: center;
 }
+/* ===== Seletores de Classe ===== */
+
+.caixa {
+    position: relative;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #333;
+    background-color: #f4f4f4;
+    color: #222;
