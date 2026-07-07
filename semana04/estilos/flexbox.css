@@ -4,10 +4,14 @@ body {
 }
 
 .flex-container {
-    border: 3px dashed darkcyan;
-    background-color: lightyellow;
+    border: 3px dashed rgb(13, 200, 200);
+    background-color: rgb(152, 152, 54);
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+
 }
 
 .flex-item {
@@ -15,8 +19,10 @@ body {
     margin: 1rem;
     border: 1px solid rgb(0 0 0 / 20%);
     padding: 0.5rem;
-    background-color: #bbb;
+    background-color: #c88282;
     color: #333;
+    
+
 }
 
 .item1 {

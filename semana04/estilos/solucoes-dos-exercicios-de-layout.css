@@ -21,6 +21,7 @@ div {
     height: 200px;
 }
 
+/* Exercício 1 - Flex */
 .flex {
     background-color: #aba;
     display: flex;
@@ -28,12 +29,14 @@ div {
     align-items: center;
 }
 
+/* Exercício 1 - Grid */
 .grid {
     background-color: #abb;
     display: grid;
     place-items: center;
 }
 
+/* Exercício 2 */
 .container2 {
     display: flex;
     flex-wrap: wrap;
@@ -42,18 +45,27 @@ div {
 
 .dois {
     background-color: #ace;
+    width: 100px;
     height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+/* Exercício 3 */
 .container3 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
 
 .columns-3 {
-    grid-column: span 3;}
+    grid-column: span 3;
+}
 
 .tres {
     margin: .25rem;
     background-color: #abd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
