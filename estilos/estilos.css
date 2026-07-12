@@ -14,7 +14,7 @@
 }
 
 nav{
-    background-color: var(--cor-primaria)
+    background-color: darkblue(--cor-primaria)
     padding: 10px;
 }
 nav  a{ 
