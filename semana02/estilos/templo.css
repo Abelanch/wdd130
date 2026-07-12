@@ -14,7 +14,7 @@ body {
     background-color: #f4f4f4;
 }
 
-/* Cabeçalho superior */
+
 header {
     background-color: #333;
     color: white;
@@ -23,15 +23,15 @@ header {
     font-size: 12px;
 }
 
-/* Conteúdo principal */
+
 main {
     padding: 20px 64px 34px;
 }
 
-/* Título principal */
+
 h1 {
     text-align: center;
-    font-size: 22px;
+    font-size: 30px;
     margin: 0 0 20px;
 }
 
@@ -48,7 +48,7 @@ main img {
     margin-bottom: 20px;
 }
 
-/* Caixas de informações */
+/* Caixas de informaçoes */
 section {
     background-color: #d9d9d9;
     padding: 14px;
