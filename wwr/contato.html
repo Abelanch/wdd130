@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Fale Conosco - Amazon Rafting Adventure</title>
+
+    <meta name="description"
+        content="Entre em contato com a Amazon Rafting Adventure para informações, reservas, dúvidas e sugestões sobre nossas aventuras de rafting.">
+
+    <meta name="author" content="Abel Flores Merida">
+
+    <link rel="stylesheet" href="estilos/rafting.css">
+</head>
+
+<body>
+
+    <header>
+        <img src="imagens/logo.png" alt="Logotipo da Amazon Rafting Adventure">
+
+        <nav>
+            <a href="index.html">Página Inicial</a>
+            <a href="sobre.html">Sobre Nós</a>
+            <a href="passeios.html">Passeios</a>
+            <a href="contato.html">Fale Conosco</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Título da página -->
+        <section class="contact-intro">
+            <h1>Fale Conosco</h1>
+
+            <p>
+                Estamos prontos para ajudar você a planejar sua próxima aventura.
+                Entre em contato conosco para tirar dúvidas, fazer perguntas sobre
+                reservas ou enviar sugestões.
+            </p>
+        </section>
+
+        <!-- Informações da empresa -->
+        <section class="contact-info">
+
+            <div class="company-info">
+
+                <h2>Informações de Contato</h2>
+
+                <p>
+                    <strong>Amazon Rafting Adventure</strong>
+                </p>
+
+                <p>
+                    📍 Avenida das Águas, 1250<br>
+                    Manaus - Amazonas, Brasil
+                </p>
+
+                <p>
+                    📞 Telefone: +55 (92) 3333-4455
+                </p>
+
+                <p>
+                    📱 WhatsApp: +55 (92) 99999-4455
+                </p>
+
+                <p>
+                    ✉️ E-mail: contato@amazonrafting.com
+                </p>
+
+            </div>
+
+            <div class="company-map">
+
+                <iframe src="https://www.google.com/maps?q=Manaus,Amazonas,Brasil&output=embed" width="100%"
+                    height="300" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                    title="Localização da Amazon Rafting Adventure">
+                </iframe>
+
+            </div>
+
+        </section>
+
+
+        <!-- Funcionários -->
+        <section class="employees">
+
+            <h2>Conheça Nossa Equipe</h2>
+
+            <div class="employee-gallery">
+
+                <figure>
+                    <img src="imagens/funcionario1.jpg" alt="Gerente da Amazon Rafting Adventure">
+
+                    <figcaption>
+                        Carlos Mendes<br>
+                        <span>Gerente de Operações</span>
+                    </figcaption>
+                </figure>
+
+
+                <figure>
+                    <img src="imagens/funcionario2.jpg" alt="Guia de rafting da Amazon Rafting Adventure">
+
+                    <figcaption>
+                        Mariana Silva<br>
+                        <span>Guia de Rafting</span>
+                    </figcaption>
+                </figure>
+
+
+                <figure>
+                    <img src="imagens/funcionario3.jpg" alt="Responsável por reservas da Amazon Rafting Adventure">
+
+                    <figcaption>
+                        Lucas Oliveira<br>
+                        <span>Reservas e Atendimento</span>
+                    </figcaption>
+                </figure>
+
+            </div>
+
+        </section>
+
+
+        <!-- Formulário -->
+        <section class="contact-form-section">
+
+            <h2>Envie uma Mensagem</h2>
+
+            <form class="contact-form">
+
+                <!-- Nome -->
+                <div class="form-group">
+
+                    <label for="nome">
+                        Nome:
+                    </label>
+
+                    <input type="text" id="nome" name="nome" required>
+
+                </div>
+
+
+                <!-- Email -->
+                <div class="form-group">
+
+                    <label for="email">
+                        E-mail:
+                    </label>
+
+                    <input type="email" id="email" name="email" required>
+
+                </div>
+
+
+                <!-- Finalidade -->
+                <fieldset>
+
+                    <legend>
+                        Qual é a finalidade da sua mensagem?
+                    </legend>
+
+
+                    <div class="radio-option">
+
+                        <input type="radio" id="consulta" name="finalidade" value="consulta-geral" required>
+
+                        <label for="consulta">
+                            Consulta Geral
+                        </label>
+
+                    </div>
+
+
+                    <div class="radio-option">
+
+                        <input type="radio" id="reserva" name="finalidade" value="pergunta-reserva">
+
+                        <label for="reserva">
+                            Pergunta sobre Reserva
+                        </label>
+
+                    </div>
+
+
+                    <div class="radio-option">
+
+                        <input type="radio" id="sugestao" name="finalidade" value="sugestao-site">
+
+                        <label for="sugestao">
+                            Sugestão de Site
+                        </label>
+
+                    </div>
+
+                </fieldset>
+
+
+                <!-- Mensagem -->
+                <div class="form-group">
+
+                    <label for="mensagem">
+                        Mensagem:
+                    </label>
+
+                    <textarea id="mensagem" name="mensagem" rows="6" required>
+                    </textarea>
+
+                </div>
+
+
+                <!-- Newsletter -->
+                <div class="newsletter">
+
+                    <input type="checkbox" id="newsletter" name="newsletter">
+
+                    <label for="newsletter">
+                        Quero receber a newsletter mensal
+                    </label>
+
+                </div>
+
+
+                <!-- Botão -->
+                <button type="submit">
+                    Enviar Mensagem
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            © 2026 Amazon Rafting Adventure | Abel Flores Merida
+        </p>
+
+        <nav class="socialmedia">
+
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+
+                <img src="imagens/facebook.png" alt="Visite nossa página no Facebook">
+            </a>
+
+
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+
+                <img src="imagens/innstagram.png" alt="Visite nosso perfil no Instagram">
+            </a>
+
+
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+
+                <img src="imagens/twuiter.png" alt="Visite nosso perfil no Twitter">
+            </a>
+
+        </nav>
+
+    </footer>
+
+</body>
+
+</html>
